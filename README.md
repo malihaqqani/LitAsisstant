@@ -1,6 +1,6 @@
 # Biomedical RAG System
 
-A modular, production-ready agentic Retrieval-Augmented Generation (RAG) system for biomedical literature search, synthesis, and citation. Built with LangChain, ChromaDB(Vector Store) and DeepSeek.
+A modular, production-ready agentic Retrieval-Augmented Generation (RAG) system for biomedical literature search. Built with LangChain, ChromaDB(Vector Store) and DeepSeek.
 
 ## Features
 - Pubmed Source Retrieval
