@@ -14,8 +14,8 @@ A modular, production-ready agentic Retrieval-Augmented Generation (RAG) system 
 
 1. **Clone the repository:**
 ```bash
-   git clone 
-cd MedLitAssistant
+   git clone repo
+   cd LitAssistant
 ```
 2.**create conda environment:**
    ```bash
