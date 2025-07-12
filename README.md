@@ -1,4 +1,4 @@
-# Biomedical RAG System
+# LitAssistant - Biomedical RAG System
 
 A modular, production-ready agentic Retrieval-Augmented Generation (RAG) system for biomedical literature search, synthesis, and citation. Built with LangChain, ChromaDB(Vector Store) and DeepSeek.
 
@@ -14,8 +14,8 @@ A modular, production-ready agentic Retrieval-Augmented Generation (RAG) system 
 
 1. **Clone the repository:**
 ```bash
-   git clone 
-cd MedLitAssistant
+   git clone https://github.com/malihaqqani/LitAsisstant.git
+   cd LitAsisstant
 ```
 2.**create conda environment:**
    ```bash
@@ -45,4 +45,3 @@ cd MedLitAssistant
 
 ## License
 MIT
-
