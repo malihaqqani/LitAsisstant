@@ -36,6 +36,9 @@ wheels/
 *.db
 chroma_db/
 src/ragagent/chroma_db/
+chainlit.md
+evaluation.py
+pyproject.toml
 
 # IDE files
 .vscode/
