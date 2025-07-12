@@ -1,0 +1,16 @@
+langchain>=0.1.0
+langgraph>=0.3.0
+scispacy>=0.5.4
+spacy>=3.7.2
+biopython>=1.81
+arxiv>=2.1.0
+requests>=2.31.0
+tqdm>=4.66.1
+openai>=1.0.0
+python-dotenv>=1.0.0
+qdrant-client>=1.6.0
+duckduckgo-search>=4.0.0
+typing_extensions>=4.7.0
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+chainlit>=1.4.0 
