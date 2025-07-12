@@ -14,13 +14,17 @@ from typing import Dict, Any, List
 from dotenv import load_dotenv
 from openai import OpenAI
 
-
+# Add the src directory to the Python path
+current_dir = os.path.dirname(os.path.abspath(__file__))
+src_dir = os.path.dirname(os.path.dirname(current_dir))
+if src_dir not in sys.path:
+    sys.path.insert(0, src_dir)
 
 try:
-    from ragagent.core.pubmedrag_core import QuestionDrivenRAG
+    from src.ragagent.core.pubmedrag_core import QuestionDrivenRAG
 except ImportError:
     # Fallback for relative import
-    from .core.pubmedrag_core import QuestionDrivenRAG
+    from src.ragagent.core.pubmedrag_core import QuestionDrivenRAG
 
 # Load environment variables
 load_dotenv()
